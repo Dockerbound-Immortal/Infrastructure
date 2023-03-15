@@ -92,6 +92,10 @@ You will
 To test the container manually on the first run you can simply run `docker-compose up --build -d`. You can then traverse to `localhost:8080/` and `localhost:8080/api/`
 you should receive a download, upon opening the file in a text editor you should see the words `Hello Client` or `Hello API` respectively. This means our routing is working as expected.
 
+# How to start the services?
+
+You can simply run the `Makefile`, if you want this file in the root of your own project simply move it and change the path to the docker-compose files in the variables at the top.
+
 # Versions
 - `Docker` : 3.8
 - `Postgres` : 15.2
