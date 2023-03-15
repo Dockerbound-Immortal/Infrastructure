@@ -96,6 +96,8 @@ you should receive a download, upon opening the file in a text editor you should
 
 You can simply run the `Makefile`, if you want this file in the root of your own project simply move it and change the path to the docker-compose files in the variables at the top.
 
+You can see a fullstack example project template: [here](https://github.com/Dockerbound-Immortal/Infrastructure).
+
 # Versions
 - `Docker` : 3.8
 - `Postgres` : 15.2
